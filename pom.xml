@@ -91,6 +91,20 @@
 		<artifactId>jxls</artifactId>
 		<version>2.4.4</version>
 	</dependency>
+	
+	<!-- 邮件服务 -->
+	<dependency>
+	    <groupId>javax.mail</groupId>
+	    <artifactId>mail</artifactId>
+	    <version>1.4.7</version>
+	</dependency>
+	
+	<!-- velocity服务 -->
+	<dependency>
+	    <groupId>org.apache.velocity</groupId>
+	    <artifactId>velocity</artifactId>
+	    <version>1.7</version>
+	</dependency>
   </dependencies>
   
   <dependencyManagement>

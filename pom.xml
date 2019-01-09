@@ -105,6 +105,7 @@
 	    <artifactId>velocity</artifactId>
 	    <version>1.7</version>
 	</dependency>
+	
   </dependencies>
   
   <dependencyManagement>

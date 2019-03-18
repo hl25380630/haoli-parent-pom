@@ -158,6 +158,12 @@
 	    <version>3.9</version>
 	</dependency>
 	
+	<dependency>
+	    <groupId>org.apache.poi</groupId>
+	    <artifactId>poi-scratchpad</artifactId>
+	    <version>3.9</version>
+	</dependency>
+	
 	<!-- itext -->
 	<dependency>
 	    <groupId>com.itextpdf</groupId>
@@ -189,6 +195,13 @@
 	
 	
   </dependencies>
+  
+   	<repositories>
+	    <repository>
+	      <id>aliRepo</id>
+	      <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+	    </repository>
+	</repositories>
   
 	<dependencyManagement>
 		<dependencies>

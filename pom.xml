@@ -199,6 +199,7 @@
 	    <version>1.11.3</version>
 	</dependency>
 	
+	<!-- 浏览器自动化 -->
 	<dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
@@ -209,6 +210,12 @@
 	    <groupId>com.google.guava</groupId>
 	    <artifactId>guava</artifactId>
 	    <version>27.1-jre</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.xerial</groupId>
+	    <artifactId>sqlite-jdbc</artifactId>
+	    <version>3.27.2.1</version>
 	</dependency>
 	
   </dependencies>
